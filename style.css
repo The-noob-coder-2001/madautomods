@@ -136,11 +136,58 @@
     z-index: -1000;
 }
 
-#top_background
+.top_background
 {
     position: absolute;
     height: 500px;
     width: 1536px;
     background: linear-gradient(180deg,
-     #9F0808 46.88%, rgba(15, 0, 0, 0.0520833) 95.31%, rgba(2, 0, 0, 0) 100%);
+     #9F0808 47.88%, rgba(15, 0, 0, 0.0520833) 90.31%, rgba(2, 0, 0, 0) 100%);
+     z-index: 4;
+}
+
+.carosuel img
+{
+    position: relative;
+    padding: 150 0 0 0;
+    align-items: center;
+    height: 900px;
+    width: 1536px;
+    z-index: initial;
+}
+
+/*Text after Carosuel*/
+.aftercaroseul
+{
+    padding: 300 0 0 0;
+    font-size: 30;
+    font-weight: 500;
+    font-family: Montserrat, sans-serif;
+    text-align: center;
+    color: black;
+}
+
+.join /*Text in Red box*/
+{
+    position: relative;
+    left: 67px;
+    top: 14px;
+    font-size: 18px;
+    font-weight: 250;
+    font-family: Montserrat, sans-serif;
+    text-align: center;
+    color: whitesmoke;
+}
+
+#jointoday /*Red Box*/
+{
+    margin-left: 670px;
+    margin-top: 5;
+    width: 225;
+    height: 50;
+    align-items: center;
+    cursor: pointer;
+    background: rgb(255, 22, 22);
+    border-radius: 6px;
+    
 }
