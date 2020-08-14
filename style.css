@@ -1,166 +1,82 @@
+* {
+    padding: 0;
+    margin: 0;
+    scroll-behavior: smooth;
+}
 
 .wrapper
 {
-    width: 100%;
-    max-width: 90rem;
-    margin: auto;
-    min-height: 10rem;
-    
+    position: fixed;
+    height: 80px;
+    width: 1536px;
+    display: flex;
+    /*justify-content: space-between;*/
+    align-items: center;
+    background: #FFFFFF;
+    z-index: 10000;
 }
 
-#imagelogo
+.wrapper img
 {
-    position: absolute;
-width: 67px;
-height: 50px;
-left: 6px;
-top: 3px;
-
-background: url(image.png);
+    position: relative;
+    width: 47px;
+    height: 35px;
+    left: 30px;
+    top: 5px;
 }
-
 
 #logo
 {
     position: absolute;
     width: 167px;
     height: 29px;
-    left: 71px;
-    top: 15px;
+    left: 85px;
+    top: 30px;
     
-    font-family: Comfortaa;
+    font-family: 'Comfortaa',cursive;
     font-style: normal;
     font-weight: normal;
-    font-size: 22px;
+    font-size: 27px;
     line-height: 25px;
     display: flex;
     align-items: center;
     text-align: center;
     letter-spacing: -0.015em;
-    
     color: #000000;
-    
-
 }
 
-#Home
-{
-    position: absolute;
-    width: 47px;
-    height: 18px;
-    left: 258px;
-    top: 21px;
-    
-    font-family: Montserrat;
-    font-style: normal;
-    font-weight: 500;
-    font-size: 15px;
-    line-height: 18px;
+.wrapper ul {
+    position: relative;
     display: flex;
-    align-items: center;
-    text-align: center;
-    letter-spacing: -0.015em;
-    
-    color: #FF0000;
-    
-
+    cursor: pointer;
 }
 
-#Gallery
-{
-    position: absolute;
-width: 52px;
-height: 18px;
-left: 333px;
-top: 21px;
-
-font-family: Montserrat;
-font-style: normal;
-font-weight: 500;
-font-size: 15px;
-line-height: 18px;
-display: flex;
-align-items: center;
-text-align: center;
-letter-spacing: -0.015em;
-
-color: #FB1818;
-
+.wrapper ul li {
+    position: relative;
+    list-style: none;
 }
 
-#customcars
-{
-    position: absolute;
-    width: 95px;
-    height: 18px;
-    left: 403px;
-    top: 21px;
-    
-    font-family: Montserrat;
-    font-style: normal;
-    font-weight: 500;
-    font-size: 15px;
-    line-height: 18px;
-    display: flex;
-    align-items: center;
-    text-align: center;
-    letter-spacing: -0.015em;
-    
-    color: #FB1818;
-    
+.wrapper ul li a {
+     position: relative;
+     padding: 5px 10px;
+     color: #000;
+     left: 260px;
+     top: 5px;
+     font-family: 'Montserrat', sans-serif;
+     font-weight: 500;
+     color: #FF0000;
+     display: inline-block;
+     text-decoration: none;
+     cursor: pointer;
 }
 
-#support
+.login
 {
-    position: absolute;
-width: 61px;
-height: 18px;
-left: 520px;
-top: 21px;
-
-font-family: Montserrat;
-font-style: normal;
-font-weight: 500;
-font-size: 15px;
-line-height: 18px;
-display: flex;
-align-items: center;
-text-align: center;
-letter-spacing: -0.015em;
-
-color: #FF0000;
-
-}
-
-#community
-{
-    position: absolute;
-    width: 89px;
-    height: 18px;
-    left: 601px;
-    top: 21px;
-    
-    font-family: Montserrat;
-    font-style: normal;
-    font-weight: 500;
-    font-size: 15px;
-    line-height: 18px;
-    display: flex;
-    align-items: center;
-    text-align: center;
-    letter-spacing: -0.015em;
-    
-    color: #F90000;
-    
-}
-
-#login
-{
-    position: absolute;
-    left: 1180px;
-    top: 5px;
+    position: relative;
+    left: 42.5px;
+    top: 11px;
     bottom: 700px;
-    
+    cursor: pointer;
     font-family: Montserrat;
     font-style: normal;
     font-weight: 500;
@@ -178,65 +94,53 @@ color: #FF0000;
 }
 #loginbutton
 {
-    position: absolute;
+    position: relative;
     width: 130px;
     height: 40px;
-    left: 1138px;
-    top: 10px;
-    
-
-background: #FFFFFF;
-/* Red */
-
-border: 1px solid #EB5757;
-box-sizing: border-box;
-border-radius: 6px;
+    left: 700px;
+    background: #FFFFFF;
+    cursor: pointer;
+    border: 1px solid #EB5757; /* Red */
+    box-sizing: border-box;
+    border-radius: 6px;
 }
-#register
+
+.register
 {
-    position: absolute;
-left: 84%;
-right: 4%;
-top: -64.75%;
-bottom: 27.5%;
-
-font-family: Montserrat;
-font-style: normal;
-font-weight: 500;
-font-size: 15px;
-line-height: 18px;
-display: flex;
-align-items: center;
-text-align: center;
-letter-spacing: -0.015em;
-
-color: #FFFFFF;
+    position: relative;
+    left: 35px;
+    top: 11px;
+    font-family: 'Montserrat',sans-serif;
+    font-style: normal;
+    cursor: pointer;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 18px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #FFFFFF;
 
 
 }
 #registerbutton
 {
-    position: absolute;
-width: 130px;
-height: 40px;
-left: 1255px;
-top: 10px;
-
-/* Red */
-
-background: #EB5757;
-border-radius: 6px;
+    position: relative;
+    width: 130px;
+    height: 40px;
+    left: 685px;
+    cursor: pointer;
+    /* Red */
+    background: #EB5757;
+    border-radius: 6px;
+    z-index: -1000;
 }
 
 #top_background
 {
     position: absolute;
-    margin-top: -105px;
-    margin-left: -20px;
-    
-    width: 1548px;
     height: 500px;
-    
+    width: 1536px;
     background: linear-gradient(180deg,
      #9F0808 46.88%, rgba(15, 0, 0, 0.0520833) 95.31%, rgba(2, 0, 0, 0) 100%);
 }
