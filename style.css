@@ -61,10 +61,10 @@
      padding: 5px 10px;
      color: #000;
      left: 260px;
-     top: 5px;
+     top: 12px;
      font-family: 'Montserrat', sans-serif;
      font-weight: 500;
-     color: #FF0000;
+     color:red;
      display: inline-block;
      text-decoration: none;
      cursor: pointer;
@@ -146,21 +146,14 @@
      z-index: 4;
 }
 
-.carosuel img
-{
-    position: relative;
-    padding: 150 0 0 0;
-    align-items: center;
-    height: 900px;
-    width: 1536px;
-    z-index: initial;
-}
+
 
 /*Text after Carosuel*/
 .aftercaroseul
 {
+    position: relative;
     padding: 300 0 0 0;
-    font-size: 30;
+    font-size: 50;
     font-weight: 500;
     font-family: Montserrat, sans-serif;
     text-align: center;
@@ -172,22 +165,42 @@
     position: relative;
     left: 67px;
     top: 14px;
-    font-size: 18px;
+    font-size: 18;
     font-weight: 250;
     font-family: Montserrat, sans-serif;
     text-align: center;
+    align-content: center;
     color: whitesmoke;
 }
 
 #jointoday /*Red Box*/
 {
-    margin-left: 670px;
+    position: relative;
+    margin-left: 635px;
     margin-top: 5;
     width: 225;
     height: 50;
-    align-items: center;
+    align-content: center;
     cursor: pointer;
+    
     background: rgb(255, 22, 22);
     border-radius: 6px;
     
+}
+#middletext p
+{
+   padding: 900 0 0 0;
+    position: relative;
+    font-weight: 100;
+    text-align: center;
+    font-size: 30;
+    font-family: Montserrat, sans-serif;
+}
+
+#carouselExampleIndicators
+{
+    position: relative;
+    height: 10  30px;
+    width: 1536px;
+    display: flex;
 }
